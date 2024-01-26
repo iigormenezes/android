@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListadeCompras</string>
+    <string name="botao_adicionar">Adicionar</string>
+    <string name="campo_texto">Digite</string>
+    <string name="listar_campo">l</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+
+    <EditText
+        android:layout_marginTop="95dp"
+        android:padding="5dp"
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/cinza"
+        android:hint="Login"/>
+
+    <EditText
+
+        android:padding="5dp"
+        android:id="@+id/edit_senha"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/cinza"
+        android:hint="Senha"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_senha"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/white"/>
+
+
+
+    <TextView
+        android:id="@+id/text_forget"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/button"
+        android:layout_height="wrap_content"
+        android:text="Esqueci a Senha"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="@+id/button"
+        android:gravity="center"/>
+
+    <TextView
+
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text_forget"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se!"
+        android:textColor="@color/white"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="@+id/button"
+        android:gravity="center"/>
+
+
+
+
+
+</RelativeLayout>
